@@ -75,7 +75,7 @@ def Find_color():
 
 
 
-icon_image = PhotoImage(file ="D:\Vs\Cpp\py\Apps\Color_detector\icon.png")
+icon_image = PhotoImage(file ="D:\Vs\Cpp\py\Apps\Color_detector\icon.png") #Import your Icon path
 root.iconphoto(False,icon_image)
 
 Label(root,width=120,height=10,bg="#4272f9").pack()
@@ -83,7 +83,7 @@ Label(root,width=120,height=10,bg="#4272f9").pack()
 frame = Frame(root,width=700,height=370,bg="#fff")
 frame.place(x=50,y=50)
 
-logo=PhotoImage(file="D:\Vs\Cpp\py\Apps\Color_detector\logo.png")
+logo=PhotoImage(file="D:\Vs\Cpp\py\Apps\Color_detector\logo.png") #import You logo path here
 Label(frame,image=logo,bg="#fff").place(x=10,y=10)
 
 Label(frame,text="Color Detector",font="arial 25 bold",bg="white").place(x=100,y=20)
