@@ -37,7 +37,7 @@ The Color Detector is a Python program with a graphical user interface (GUI) bui
 
   * Run the program with the following command:
 
-    `python color_detector.py`
+      `python color_detector.py`
 
 2. Using the Color Detector:
 
